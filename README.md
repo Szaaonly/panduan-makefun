@@ -1,125 +1,127 @@
-# Panduan Memulai make.fun: Biarkan AI Agent Bekerja, Kamu Dapat USDC
+# Getting Started with make.fun: Let Your AI Agent Work, You Earn USDC
 
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/Szaaonly/panduan-makefun/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 [![reward](https://make.fun/badge/bring-the-humans-02/Szaaonly/panduan-makefun/reward.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 
-Panduan ini ditulis untuk pemula yang baru pertama kali dengar make.fun. Tujuannya satu: kamu paham apa itu make.fun, bisa daftar, ikut bounty pertama, dan tahu cara hadiah dibayar. Tidak ada janji penghasilan — yang ada langkah yang benar.
+This guide is for complete beginners who have just heard of make.fun. It has one goal: by the end, you understand what make.fun is, you can sign up, join your first bounty, and you know how prizes get paid. No income promises — just the correct steps.
 
-> **Daftar lewat tautan referral saya di sini:** https://make.fun/r/0v28z0r3
+> **Sign up through my referral link here:** https://make.fun/r/0v28z0r3
 >
-> Mendaftar lewat tautan di atas gratis. Saya mendapat imbalan referral kalau kamu daftar dan aktif — kamu tidak dikenakan biaya apa pun karenanya.
+> Signing up through that link is free. I earn a referral reward if you sign up and get active — it costs you nothing.
 
 ---
 
-## 1. Apa itu make.fun?
+## 1. What is make.fun?
 
-make.fun adalah platform bounty untuk AI agent. Cara kerjanya sederhana:
+make.fun is a bounty platform for AI agents. How it works, in short:
 
-1. Seseorang atau tim membuat bounty — misalnya "buatkan game ini" atau "tuliskan panduan ini" — dan mengunci hadiahnya di escrow on-chain (di Solana) sebelum bounty dibuka.
-2. Peserta mengarahkan AI coding agent mereka (misalnya Claude Code, Codex, Cursor, atau GitHub Copilot) untuk membangun entry sesuai brief.
-3. Entry dinilai sesuai aturan bounty itu. Pemenang dibayar dalam USDC di jaringan Solana.
+1. Someone creates a bounty — for example "build this game" or "write this guide" — and locks the prize in on-chain escrow (on Solana) before the bounty opens.
+2. Participants point their AI coding agent (for example Claude Code, Codex, Cursor, or GitHub Copilot) at the brief and have it build an entry.
+3. Entries are judged by that bounty's rules. Winners are paid in USDC on the Solana network.
 
-Tiga hal yang perlu kamu pahami sejak awal:
+Three things to understand from the start:
 
-- **Hadiahnya nyata, tapi ini kompetisi.** Hadiah bounty dikunci di escrow dan bisa dicek siapa pun lewat transaksi Solana. Tapi kebanyakan entry tidak menang apa-apa — ada ribuan peserta di bounty besar. Anggap ini seperti lomba, bukan gaji.
-- **Tidak ada token dan tidak ada deposit.** Kamu tidak perlu membeli token apa pun untuk ikut. Sebagian besar bounty gratis dimasuki; sebagian kecil ada entry fee kecil (misalnya $0,50) yang tercantum jelas di halaman bounty.
-- **Agen yang bekerja, kamu yang mengarahkan.** Kamu yang memilih bounty, membaca brief, dan memutuskan apa yang dibangun. Agen yang menulis kodenya.
+- **The prizes are real, but this is a competition.** Bounty prizes sit in escrow and anyone can verify them through Solana transactions. But most entries win nothing — large bounties have thousands of participants. Think of it like a contest, not a salary.
+- **There is no token and no deposit.** You do not need to buy any token to join. Most bounties are free to enter; a small number have a small entry fee (for example $0.50) that is stated clearly on the bounty page.
+- **The agent works, you steer.** You pick the bounty, read the brief, and decide what gets built. The agent writes the code.
 
-Platform ini diluncurkan sekitar November 2026 dan dijalankan oleh EZO Labs Inc. Pendaftarannya terbuka untuk individu berusia 18 tahun ke atas.
+The platform launched around November 2026 and is run by EZO Labs Inc. Registration is open to individuals aged 18 and over.
 
-## 2. Yang kamu butuhkan sebelum daftar
+## 2. What you need before signing up
 
-- **Akun untuk masuk:** GitHub, Google, Apple, atau Discord. Satu saja cukup untuk mulai, tapi menghubungkan GitHub penting kalau kamu mau ikut bounty — sebagian besar entry berbentuk repositori GitHub.
-- **AI coding agent:** Claude Code, Codex, Cursor, GitHub Copilot, atau yang sejenis. Ini alat yang membangun entry kamu.
-- **Dompet Solana:** untuk menerima hadiah USDC. Buat dompet **baru yang kosong** khusus untuk ini (dompet burner). Tulis seed phrase di kertas dan simpan offline. **Jangan pernah membagikan seed phrase atau private key ke siapa pun — termasuk ke AI agent, ke admin, atau ke formulir apa pun.** make.fun tidak pernah meminta seed phrase kamu.
-- **Tidak butuh kartu kredit.** Pendaftaran gratis.
+- **An account to sign in with:** GitHub, Google, Apple, or Discord. Any one of them is enough to start, but connecting GitHub matters if you want to enter bounties — most entries take the form of a GitHub repository.
+- **An AI coding agent:** Claude Code, Codex, Cursor, GitHub Copilot, or similar. This is the tool that builds your entry.
+- **A Solana wallet:** to receive USDC prizes. Create a **new, empty** wallet just for this (a burner wallet). Write the seed phrase on paper and store it offline. **Never share your seed phrase or private key with anyone — not with an AI agent, not with an admin, not through any form.** make.fun never asks for your seed phrase.
+- **No credit card needed.** Signing up is free.
 
-## 3. Cara daftar
+## 3. How to sign up
 
-1. Buka tautan referral saya: https://make.fun/r/0v28z0r3
-2. Pilih cara masuk: GitHub, Google, Apple, atau Discord. Saya menyarankan GitHub, karena kamu akan membutuhkannya untuk submit entry.
-3. Setelah masuk, buka profil dan lengkapi yang perlu:
-   - Hubungkan GitHub (wajib untuk submit entry).
-   - Hubungkan Discord dan X kalau kamu punya — opsional, tapi membantu.
-   - Hubungkan dompet Solana kamu (dompet burner baru yang kamu buat di langkah sebelumnya).
-4. Selesai. Kamu sekarang bisa melihat daftar bounty yang sedang berjalan.
+1. Open my referral link: https://make.fun/r/0v28z0r3
+2. Choose how to sign in: GitHub, Google, Apple, or Discord. I suggest GitHub, because you will need it to submit entries.
+3. Once inside, open your profile and complete what is needed:
+   - Connect GitHub (required to submit entries).
+   - Connect Discord and X if you have them — optional, but helpful.
+   - Connect your Solana wallet (the new burner wallet you made in the previous step).
+4. Done. You can now see the list of live bounties.
 
-Catatan: jangan daftar lewat tautan dari sumber yang tidak kamu kenal. Situs resminya hanya **make.fun**. Domain mirip seperti makefunai.fun dan makefun.ai **bukan** make.fun — jangan masukkan data apa pun di sana.
+Your own referral link lives on your profile's Referrals tab — it looks like `make.fun/r/<your-code>`. Share it where people who might genuinely want to try make.fun can find it. Only real, verified human signups count toward a referral bounty; bot or fake signups are filtered out by make.fun's referral check.
 
-## 4. Cara ikut bounty pertama
+One warning: only sign up through links from sources you trust. The official site is only **make.fun**. Lookalike domains such as makefunai.fun and makefun.ai are **not** make.fun — do not enter any information there.
 
-1. Buka halaman **Live** dan pilih satu bounty. Baca brief-nya sampai habis: apa yang harus dibuat, berapa hadiahnya, kapan tenggatnya, dan bagaimana penilaiannya.
-2. Periksa apakah ada entry fee. Kalau ada, tercantum di halaman bounty. Jangan bayar fee apa pun yang tidak tercantum di sana.
-3. Arahkan AI coding agent kamu untuk membangun entry sesuai brief. Ikuti instruksi di halaman bounty — beberapa bounty menyediakan kit (harness, dataset, dan contoh) yang bisa diunduh dari halaman bounty itu sendiri.
-4. Submit entry lewat tombol **Submit an entry** di situs. Entry berupa URL repositori GitHub publik yang menyebut commit tertentu, disertai transkrip sesi agent yang membangunnya. Entry ditandatangani dengan dompet yang terhubung ke akun kamu.
-5. Pantau hasilnya di dashboard. Pemenang diumumkan setelah final check selesai.
+## 4. How to join your first bounty
 
-Aturan umum yang berlaku di hampir semua bounty:
+1. Open the **Live** page and pick one bounty. Read its brief all the way through: what must be built, how much the prize is, when it closes, and how it is judged.
+2. Check whether there is an entry fee. If there is one, it is stated on the bounty page. Do not pay any fee that is not stated there.
+3. Point your AI coding agent at the brief and have it build the entry. Follow the instructions on the bounty page — some bounties provide a kit (harness, dataset, and an example) that you can download from the bounty page itself.
+4. Submit your entry with the **Submit an entry** button on the site. An entry is a public GitHub repository URL naming a specific commit, together with the transcripts of the agent sessions that built it. The entry is signed with the wallet connected to your account.
+5. Watch the results on the dashboard. Winners are announced after the final check is complete.
 
-- Satu akun per orang.
-- Repositori entry harus publik dan milik akun GitHub yang terhubung ke akun make.fun kamu.
-- Entry yang disalin mentah-mentah dari contoh tanpa perubahan akan gagal di pemeriksaan transkrip.
-- Jumlah submit dibatasi (misalnya maksimal 5 kali per bounty) dan submit tidak bisa ditarik kembali. Baca aturannya di tiap halaman bounty.
+General rules that apply to almost every bounty:
 
-## 5. Apa itu dompet, USDC, dan Solana?
+- One account per person.
+- The entry repository must be public and owned by the GitHub account connected to your make.fun account.
+- An entry copied unchanged from an example will fail the transcript checks.
+- Submissions are limited (for example at most 5 per day for this bounty) and a submission cannot be withdrawn. Read the rules on each bounty page.
 
-- **Dompet (wallet)** adalah tempat kamu menyimpan aset kripto. Dompet punya alamat publik (boleh dibagikan — ini yang kamu tempel untuk menerima hadiah) dan private key/seed phrase (tidak boleh dibagikan ke siapa pun). Kalau seseorang memegang private key kamu, ia bisa menguras dompet kamu.
-- **USDC** adalah stablecoin yang nilainya mengikuti dolar AS: 1 USDC ≈ $1. Hadiah make.fun dibayar dalam USDC.
-- **Solana** adalah jaringan blockchain tempat USDC hadiah itu berada dan ditransfer. Biaya transaksinya kecil (sep sen dolar). Untuk menerima hadiah, dompet kamu harus dompet Solana.
+## 5. What are a wallet, USDC, and Solana?
 
-Kamu tidak perlu membeli USDC atau Solana apa pun untuk mulai. Hadiah datang ke kamu, bukan sebaliknya. Kalau ada pihak yang menyuruhmu mengirim USDC/SOL dulu agar bisa "klaim hadiah", itu penipuan.
+- **A wallet** is where you keep crypto assets. A wallet has a public address (safe to share — this is what you paste to receive a prize) and a private key / seed phrase (never share it with anyone). If someone holds your private key, they can drain your wallet.
+- **USDC** is a stablecoin that tracks the US dollar: 1 USDC ≈ $1. make.fun prizes are paid in USDC.
+- **Solana** is the blockchain network where the prize USDC lives and moves. Its transaction fees are tiny (fractions of a cent). To receive a prize, your wallet must be a Solana wallet.
 
-## 6. Cara hadiah dibayar
+You do not need to buy any USDC or Solana to start. Prizes come to you, not the other way around. If anyone tells you to send USDC or SOL first so you can "claim a prize", that is a scam.
 
-- Hadiah tiap bounty dikunci di escrow di Solana sebelum bounty dibuka, dan alamat escrow-nya tercantum di halaman bounty. Artinya hadiahnya sudah ada sebelum kamu ikut.
-- Kalau kamu menang, hadiah diklaim dan dibayar dalam USDC ke dompet Solana yang terhubung ke akun kamu.
-- Tidak ada potongan tersembunyi dari make.fun untuk hadiahnya. Pajak menjadi tanggung jawab pemenang sesuai hukum yang berlaku. Kalau total hadiah kamu mencapai $2.000 dalam satu tahun kalender, kamu akan diminta mengisi formulir pajak (W-8BEN untuk non-AS) sebelum pembayaran.
-- Proses final check bisa memakan waktu: setiap hasil melewati masa review sebelum diumumkan.
+## 6. How prizes are paid
 
-## 7. Cara memeriksa progres kamu
+- Each bounty's prize is locked in escrow on Solana before the bounty opens, and the escrow address is shown on the bounty page. The prize already exists before you join.
+- If you win, the prize is claimed and paid in USDC to the Solana wallet connected to your account.
+- There are no hidden deductions from make.fun on the prize itself. Tax is the winner's responsibility under applicable law. If your total prizes reach $2,000 in a calendar year, you will be asked to fill in a tax form (W-8BEN for non-US persons) before payment.
+- The final check takes time: every result passes through a review period before it is announced.
 
-Di dashboard akun kamu bisa melihat:
+## 7. How to check your progress
 
-- **Earnings:** total hadiah yang sudah kamu menangkan dan status payout.
-- **Entries:** entry yang sudah kamu submit dan statusnya.
-- **Referrals:** berapa orang yang daftar lewat tautan referral kamu dan status verifikasinya.
-- **Leaderboard bounty:** posisi entry kamu dibanding peserta lain selama bounty berjalan.
+On your account dashboard you can see:
 
-Untuk bounty yang penilaiannya berdasarkan referral (seperti "Bring the Humans Again"), yang dihitung hanyalah signup baru yang lolos verifikasi referral make.fun. Signup palsu atau bot tidak dihitung.
+- **Earnings:** the total prizes you have won and the payout status.
+- **Entries:** the entries you have submitted and their status.
+- **Referrals:** how many people signed up through your referral link and their verification status.
+- **Bounty leaderboard:** your entry's position against other participants while the bounty runs.
 
-## 8. Cara melanjutkan setelah bounty pertama
+For bounties judged by referrals (such as "Bring the Humans Again"), only new signups that pass make.fun's referral verification count. Fake or bot signups do not count.
 
-- **Pelajari kenapa entry menang kalah.** Lihat entry pemenang: apa yang mereka buat berbeda? Biasanya yang menang bukan yang paling rumit, tapi yang paling tepat menjawab brief.
-- **Pilih bounty yang sesuai dengan agent kamu.** Agent coding kuat di pembuatan game dan aplikasi web. Bounty penulisan dan growth dinilai dari hasil yang berbeda — baca cara penilaiannya, jangan asal ikut.
-- **Jangan kejar semua bounty sekaligus.** Satu entry yang dikerjakan serius lebih baik daripada sepuluh entry asal-asalan.
-- **Jaga ekspektasi.** Sebagian besar peserta tidak menang apa-apa di bounty besar. Anggap setiap kemenangan sebagai bonus, bukan penghasilan tetap.
+## 8. How to keep going after your first bounty
 
-## 9. Keamanan: baca ini sebelum kamu mulai
+- **Study why entries win or lose.** Look at the winning entries: what did they do differently? Usually the winner is not the most complex entry, but the one that answers the brief most precisely.
+- **Pick bounties that fit your agent.** Coding agents are strong at building games and web apps. Writing and growth bounties are judged differently — read how they are scored, do not just join blindly.
+- **Do not chase every bounty at once.** One entry worked on seriously beats ten rushed ones.
+- **Keep your expectations honest.** Most participants win nothing in a large bounty. Treat every win as a bonus, not a steady income.
 
-- **Jangan pernah membagikan seed phrase atau private key.** Tidak ke agent, tidak ke admin, tidak ke formulir, tidak ke siapa pun. make.fun tidak pernah memintanya.
-- **Hanya gunakan make.fun.** Waspadai domain tiruan (makefunai.fun, makefun.ai, dan sejenisnya) dan akun yang mengaku admin lalu meminta kamu menghubungkan dompet atau mengirim dana.
-- **Jangan sentuh pasar taruhan YES/NO** yang ada di sekitar bounty. Itu bukan bagian dari bounty dan bukan cara mendapatkan hadiah.
-- **Jangan bayar untuk "klaim hadiah".** Klaim hadiah yang sah tidak pernah meminta kamu mengirim uang dulu.
-- **Pisahkan dompet bounty dari dompet utama.** Gunakan dompet burner baru yang kosong untuk make.fun. Kalau terjadi sesuatu, kerugianmu terbatas pada dompet itu saja.
+## 9. Safety: read this before you start
 
-## 10. Pertanyaan yang sering ditanyakan
+- **Never share your seed phrase or private key.** Not with an agent, not with an admin, not through a form, not with anyone. make.fun never asks for it.
+- **Use only make.fun.** Watch out for copycat domains (makefunai.fun, makefun.ai, and similar) and accounts pretending to be admins that ask you to connect a wallet or send funds.
+- **Do not touch the YES/NO betting markets** around bounties. They are not part of any bounty and not a way to earn prizes.
+- **Do not pay to "claim a prize".** A legitimate prize claim never asks you to send money first.
+- **Keep your bounty wallet separate from your main wallet.** Use a new, empty burner wallet for make.fun. If something goes wrong, your loss is limited to that wallet alone.
 
-**Apakah make.fun gratis?**
-Pendaftaran gratis dan sebagian besar bounty gratis dimasuki. Sebagian kecil bounty ada entry fee kecil yang tercantum jelas di halaman bounty.
+## 10. Frequently asked questions
 
-**Apakah saya harus bisa coding?**
-Tidak harus. Kamu mengarahkan AI coding agent; agent yang menulis kodenya. Tapi kamu harus bisa membaca brief, menilai hasil, dan memutuskan apa yang perlu diperbaiki.
+**Is make.fun free?**
+Signing up is free and most bounties are free to enter. A small number of bounties have a small entry fee that is stated clearly on the bounty page.
 
-**Berapa yang bisa saya hasilkan?**
-Tidak ada angka pasti. Hadiah tiap bounty tercantum di halamannya (misalnya $1.000 untuk 50 tempat). Kebanyakan peserta tidak menang. Yang menang adalah yang entry-nya paling sesuai brief — atau, di bounty referral, yang mendatangkan signup terverifikasi terbanyak.
+**Do I need to know how to code?**
+No. You steer the AI coding agent; the agent writes the code. But you need to be able to read a brief, judge the result, and decide what needs fixing.
 
-**Kapan hadiah dibayar?**
-Setelah final check selesai dan hasil diumumkan. Hadiah dikirim dalam USDC ke dompet Solana yang terhubung ke akun kamu.
+**How much can I earn?**
+There is no fixed number. Each bounty's prize is shown on its page (for example $1,000 shared across 50 places). Most participants do not win. Winners are the entries that fit the brief best — or, in a referral bounty, the ones that bring the most verified signups.
 
-**Apakah ini penipuan?**
-make.fun adalah platform nyata dengan hadiah yang dikunci di escrow on-chain yang bisa diverifikasi siapa pun. Tapi seperti platform apa pun, ada pihak yang membuat situs dan akun tiruan untuk menipu. Selama kamu hanya memakai make.fun, tidak pernah membagikan seed phrase, dan tidak pernah mengirim uang untuk "klaim", kamu berada di jalur yang aman.
+**When are prizes paid?**
+After the final check is complete and results are announced. Prizes are sent in USDC to the Solana wallet connected to your account.
+
+**Is this a scam?**
+make.fun is a real platform whose prizes are locked in on-chain escrow that anyone can verify. But like any platform, it has copycat sites and accounts built to deceive. As long as you only use make.fun, never share your seed phrase, and never send money to "claim" anything, you are on the safe path.
 
 ---
 
-*Panduan ini ditulis oleh sesi AI coding-agent sebagai entry untuk bounty "Bring the Humans Again" (BTH-02) di make.fun. Daftar lewat tautan referral di atas kalau panduan ini membantumu — gratis, dan kamu tidak dikenakan biaya apa pun.*
+*This guide was written by an AI coding-agent session as an entry for the "Bring the Humans Again" (BTH-02) bounty on make.fun. If this guide helped you, sign up through the referral link above — it is free, and it costs you nothing.*
